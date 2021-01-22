@@ -1,6 +1,6 @@
 # bruteforce-seed
 
-    usage: bruteforce.py [-h] --seed SEED --address ADDRESS [--address-type {segwit,default}]
+    usage: bruteforce.py [-h] --seed SEED --address ADDRESS [--address-type {segwit,legacy}]
     
     optional arguments:
       -h, --help            show this help message and exit

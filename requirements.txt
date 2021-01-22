@@ -1,0 +1,2 @@
+bip_utils
+git+https://github.com/mcdallas/cryptotools.git@master#egg=cryptotools

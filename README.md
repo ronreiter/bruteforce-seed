@@ -6,7 +6,7 @@
       -h, --help            show this help message and exit
       --seed SEED           the wallet seed, consists of 24 words
       --address ADDRESS     the wallet address at 0
-      --address-type {segwit,default}
+      --address-type {segwit,legacy}
                             the wallet address type
 
 Usage example:

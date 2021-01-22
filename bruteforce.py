@@ -33,7 +33,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--seed", required=True, help="the wallet seed, consists of 24 words")
 	parser.add_argument("--address", required=True, help="the wallet address at 0")
-	parser.add_argument("--address-type", choices=["segwit", "default"], default="segwit", help="the wallet address type")
+	parser.add_argument("--address-type", choices=["segwit", "legacy"], default="segwit", help="the wallet address type")
 	args = parser.parse_args()
 
 	print(find_correct_seed(args.seed, args.address, args.address_type))
